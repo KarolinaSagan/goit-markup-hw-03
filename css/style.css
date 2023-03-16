@@ -122,6 +122,12 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+#agency {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 93px;
+  margin-right: 46px;
+}
 
 .ul-style {
   display: flex;
