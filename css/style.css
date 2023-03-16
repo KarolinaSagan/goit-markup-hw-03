@@ -135,6 +135,15 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.nav-ul-style {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+
 .nav-ul-style:first-child {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -153,14 +162,6 @@ img {
 }
 
 .ul-style {
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-  align-items: center;
-  flex-direction: row;
-  list-style: none;
-}
-.nav-ul-style {
   display: flex;
   list-style: none;
   flex-direction: row;
