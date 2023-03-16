@@ -8,6 +8,9 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+.container {
+  width: 1200px;
+}
 
 img {
   display: block;
