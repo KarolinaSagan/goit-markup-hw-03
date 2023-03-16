@@ -127,6 +127,9 @@ img {
   display: flex;
   list-style: none;
   flex-direction: row;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
 }
 
 .description-portfolio {
