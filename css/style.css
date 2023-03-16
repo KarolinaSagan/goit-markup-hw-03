@@ -21,6 +21,11 @@ img {
   align-items: center;
   justify-content: center;
 }
+.nav-contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
 .button-portfolio {
   font-weight: 500;
