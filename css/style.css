@@ -20,7 +20,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
 }
 .nav-contact {
   display: flex;
@@ -125,7 +124,9 @@ img {
 }
 
 .ul-style {
+  display: flex;
   list-style: none;
+  flex-direction: row;
 }
 
 .description-portfolio {
