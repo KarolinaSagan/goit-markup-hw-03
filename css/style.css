@@ -27,11 +27,6 @@ img {
   justify-content: flex-end;
   flex-direction: row;
   list-style: none;
-  color: #757575;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.87;
-  text-decoration: none;
 }
 
 .nav-contact:first-child {
@@ -44,7 +39,7 @@ img {
   margin-left: 50px;
   margin-top: 32px;
   margin-bottom: 32px;
-  margin-right: 227px;
+  margin-right: 50px;
 }
 
 .button-portfolio {
@@ -125,7 +120,10 @@ img {
 .navigation:hover,
 .contact-footer:hover,
 .contact-footer:active,
+.contact:active,
+.contact:hover,
 .navigation:focus,
+.contact:focus,
 .contact-footer:focus {
   color: #2196f3;
 }
@@ -136,24 +134,18 @@ img {
   line-height: 0.87;
   letter-spacing: 0.02em;
   text-decoration: none;
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-  align-items: center;
-  flex-direction: row;
-  list-style: none;
 }
-.navigation:first-child {
+.nav-ul-style:first-child {
   margin-top: 32px;
   margin-bottom: 32px;
   margin-left: 93px;
   margin-right: 46px;
 }
-.navigation:nth-child(2) {
+.nav-ul-style:nth-child(2) {
   margin: 32px, 46px;
 }
 
-.navigation:last-child {
+.nav-ul-style:last-child {
   margin-top: 32px;
   margin-bottom: 32px;
   margin-left: 46px;
@@ -161,6 +153,14 @@ img {
 }
 
 .ul-style {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+.nav-ul-style {
   display: flex;
   list-style: none;
   flex-direction: row;
@@ -216,6 +216,13 @@ img {
   color: #2196f3;
 }
 
+.contact {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  text-decoration: none;
+}
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
   line-height: 0.58;
