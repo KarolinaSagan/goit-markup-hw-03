@@ -27,6 +27,11 @@ img {
   justify-content: flex-end;
   flex-direction: row;
   list-style: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  text-decoration: none;
 }
 
 .nav-contact:first-child {
@@ -120,10 +125,7 @@ img {
 .navigation:hover,
 .contact-footer:hover,
 .contact-footer:active,
-.contact:active,
-.contact:hover,
 .navigation:focus,
-.contact:focus,
 .contact-footer:focus {
   color: #2196f3;
 }
@@ -208,13 +210,6 @@ img {
   color: #2196f3;
 }
 
-.contact {
-  color: #757575;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.87;
-  text-decoration: none;
-}
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
   line-height: 0.58;
