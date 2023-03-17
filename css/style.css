@@ -83,17 +83,17 @@ header {
   display: flex;
   justify-content: center;
 }
-.nav-ul-style:first-child {
+.navigation:first-child {
   margin-top: 32px;
   margin: left 93px;
   margin-bottom: 32px;
 }
-.nav-ul-style:nth-child(2) {
+.navigation:nth-child(2) {
   margin-top: 32px;
   margin-bottom: 32px;
   margin-left: 46px;
 }
-.nav-ul-style:last-child {
+.navigation:last-child {
   margin-top: 32px;
   margin-bottom: 32px;
   margin-left: 46px;
