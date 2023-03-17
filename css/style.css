@@ -70,6 +70,10 @@ img {
 .ul-style {
   list-style: none;
 }
+.nav-ul-style {
+  list-style: none;
+  display: flex;
+}
 
 .description-portfolio {
   color: #757575;
@@ -110,6 +114,10 @@ img {
   letter-spacing: 0.03em;
   line-height: 1.19;
   text-decoration: none;
+  margin-top: 24px;
+  margin-left: 215px;
+  margin-right: 93px;
+  margin-bottom: 25px;
 }
 .color-logo-blue {
   color: #2196f3;
