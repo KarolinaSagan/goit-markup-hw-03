@@ -160,6 +160,14 @@ header {
   text-decoration: none;
   letter-spacing: 0.02em;
 }
+.contact:first-child {
+  margin-left: 371px;
+  margin-top: 32px;
+}
+.contact:last-child {
+  margin-left: 50px;
+  margin-top: 32px;
+}
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
