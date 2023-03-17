@@ -83,6 +83,22 @@ header {
   display: flex;
   justify-content: center;
 }
+.nav-ul-style:first-child {
+  margin-top: 32px;
+  margin-left: 215px;
+  margin-bottom: 32px;
+}
+.nav-ul-style:nth-child(2) {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 552px;
+}
+.nav-ul-style:last-child {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 656px;
+}
+
 .ul-contact {
   list-style: none;
   display: flex;
@@ -130,7 +146,6 @@ header {
   text-decoration: none;
   margin-top: 24px;
   margin-left: 215px;
-  margin-right: 93px;
   margin-bottom: 25px;
 }
 .color-logo-blue {
