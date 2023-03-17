@@ -171,6 +171,8 @@ header {
 }
 .address {
   font-style: normal;
+  display: flex;
+  flex-direction: column;
 }
 .p-address {
   color: #ffffff;
