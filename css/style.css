@@ -85,17 +85,15 @@ header {
 }
 .navigation:first-child {
   margin-top: 32px;
-  margin: left 93px;
+  margin-left: 93px;
   margin-bottom: 32px;
 }
 .navigation:nth-child(2) {
   margin-top: 32px;
-  margin-bottom: 32px;
   margin-left: 46px;
 }
 .navigation:last-child {
   margin-top: 32px;
-  margin-bottom: 32px;
   margin-left: 46px;
 }
 
