@@ -85,18 +85,18 @@ header {
 }
 .nav-ul-style:first-child {
   margin-top: 32px;
-  margin-left: 215px;
+  margin: left 93px;
   margin-bottom: 32px;
 }
 .nav-ul-style:nth-child(2) {
   margin-top: 32px;
   margin-bottom: 32px;
-  margin-left: 552px;
+  margin-left: 46px;
 }
 .nav-ul-style:last-child {
   margin-top: 32px;
   margin-bottom: 32px;
-  margin-left: 656px;
+  margin-left: 46px;
 }
 
 .ul-contact {
