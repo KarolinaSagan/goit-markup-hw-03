@@ -80,9 +80,7 @@ header {
   white-space: nowrap;
 }
 
-.button-index:active,
-.button-index:hover,
-.button-index:focus {
+.button-index:hover {
   cursor: pointer;
 }
 
@@ -164,7 +162,7 @@ header {
 
 .heading-index {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
@@ -242,7 +240,7 @@ header {
   letter-spacing: 0.03em;
   line-height: 1.19;
   text-decoration: none;
-
+  color: #000000;
   margin-left: 215px;
 }
 .color-logo-blue {
