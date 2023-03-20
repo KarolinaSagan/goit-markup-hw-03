@@ -185,10 +185,11 @@ header {
 .index-img-sectiion-four {
   display: flex;
   flex-direction: row;
+  background-color: #f5f4fa;
   margin-top: 50px;
 }
 
-.portfolio-img-div {
+.portfolio-img-section {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
@@ -307,6 +308,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 50dp;
 }
 
 .p-style {
@@ -356,7 +358,6 @@ header {
 }
 .index-section:nth-child(3) {
   background: #f5f4fa;
-  flex-direction: column;
 }
 .portfolio-section {
   display: flex;
