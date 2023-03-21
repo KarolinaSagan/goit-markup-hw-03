@@ -1,33 +1,38 @@
 body {
   font-family: "Roboto", "Relaway", sans-serif;
   color: #212121;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 img {
   display: block;
 }
-body {
-  width: 1600px;
-}
 
 header {
-  display: flex;
   border-bottom: 1px solid #ececec;
   padding-top: 25px;
   padding-bottom: 24px;
 }
 
+.box-header {
+  display: flex;
+  align-items: center;
+}
+
 .container {
-  width: 1600px;
-  margin: 0px;
+  width: 1200px;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 
 .portfolio-button-ul {
   list-style: none;
   display: flex;
-  padding-left: 295px;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-inline-start: 0px;
+  justify-content: center;
 }
 
 .button-portfolio {
@@ -37,11 +42,11 @@ header {
   border-radius: 4px;
   background: #f5f4fa;
   text-align: center;
+  justify-content: center;
   letter-spacing: 0.03em;
-  padding-top: 6px;
   padding-left: 22px;
-  padding-bottom: 6px;
   padding-right: 22px;
+  height: 38px;
 }
 
 .button-portfolio-li:not(:first-child) {
@@ -68,16 +73,11 @@ header {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  text-align: center;
   align-items: center;
-  display: flex;
+  justify-content: center;
   margin-top: 30px;
-  margin-left: 700px;
-  margin-right: 700px;
-  padding-left: 42px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  white-space: nowrap;
+  width: 200px;
+  height: 50px;
 }
 
 .button-index:hover {
@@ -107,7 +107,6 @@ header {
 .index-section-two-ul {
   list-style: none;
   display: flex;
-  padding-left: 215px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -115,8 +114,8 @@ header {
 .nav-ul-style {
   list-style: none;
   display: flex;
-  justify-content: center;
   margin-top: 8px;
+  padding-inline-start: 0px;
 }
 .nav-li {
   margin-left: 93px;
@@ -179,7 +178,6 @@ header {
 .index-img-section-three {
   display: flex;
   flex-direction: row;
-  padding-left: 215px;
   margin-top: 50px;
 }
 .index-img-sectiion-four {
@@ -208,7 +206,7 @@ header {
   margin-bottom: 0px;
 }
 .index-figure:first-child {
-  margin-left: 215px;
+  margin-left: auto;
 }
 
 .portfolio-figure {
@@ -241,7 +239,6 @@ header {
   line-height: 1.19;
   text-decoration: none;
   color: #000000;
-  margin-left: 215px;
 }
 .color-logo-blue {
   color: #2196f3;
@@ -271,7 +268,6 @@ header {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  margin-left: 215px;
 }
 .p-address {
   color: #ffffff;
@@ -297,8 +293,6 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-left: 452px;
-  margin-top: 106px;
 }
 
 .H3-style {
@@ -325,7 +319,6 @@ header {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  margin-left: 624px;
   margin-top: 94px;
   margin-bottom: 0px;
 }
@@ -336,17 +329,19 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   display: flex;
-  margin-left: 695px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .section {
+  display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .index-section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .index-section:first-child {
   background: #2f303a;
@@ -360,7 +355,6 @@ header {
 }
 .portfolio-section {
   display: flex;
-  padding-left: 215px;
   padding-top: 56px;
   flex-direction: column;
 }

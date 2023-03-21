@@ -11,37 +11,48 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="container">
-      <a href="./index.html" class="logo"
-        ><span class="color-logo-blue">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="nav-ul-style">
-          <li class="nav-li">
-            <a href="#" class="navigation">Agencja</a>
+    <header>
+      <section class="container box-header">
+        <a href="./index.html" class="logo"
+          ><span class="color-logo-blue">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="nav-ul-style">
+            <li class="nav-li">
+              <a href="#" class="navigation">Agencja</a>
+            </li>
+            <li class="nav-li">
+              <a href="./portfolio.html" class="navigation">Portfolio</a>
+            </li>
+            <li class="nav-li">
+              <a href="#" class="navigation">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="ul-contact">
+          <li class="li-contact">
+            <a href="mailto:info@example.com" class="contact"
+              >info@example.com</a
+            >
           </li>
-          <li class="nav-li">
-            <a href="./portfolio.html" class="navigation">Portfolio</a>
-          </li>
-          <li class="nav-li">
-            <a href="#" class="navigation">Kontakt</a>
+          <li class="li-contact">
+            <a href="+48111111111" class="contact"> +48 111 111 111 </a>
           </li>
         </ul>
-      </nav>
-      <ul class="ul-contact">
-        <li class="li-contact">
-          <a href="mailto:info@example.com" class="contact">info@example.com</a>
-        </li>
-        <li class="li-contact">
-          <a href="+48111111111" class="contact"> +48 111 111 111 </a>
-        </li>
-      </ul>
+      </section>
     </header>
-    <main class="container">
-      <section class="portfolio-section section">
+    <main>
+      <section class="portfolio-section section container">
         <ul class="portfolio-button-ul">
           <li class="button-portfolio-li">
             <button type="button" class="button-portfolio">Wszystkie</button>
@@ -173,18 +184,20 @@
         </div>
       </section>
     </main>
-    <footer class="footer-page container">
-      <a href="./index.html" class="logo"
-        ><span class="color-logo-blue">Web</span
-        ><span class="color-logo-white">Studio</span></a
-      >
-      <address class="address">
-        <p class="p-address">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a href="mailto:info@example.com" class="contact-footer"
-          >info@example.com</a
+    <footer class="footer-page">
+      <section class="container">
+        <a href="./index.html" class="logo"
+          ><span class="color-logo-blue">Web</span
+          ><span class="color-logo-white">Studio</span></a
         >
-        <a href="+48111111111" class="contact-footer"> +48 111 111 111 </a>
-      </address>
+        <address class="address">
+          <p class="p-address">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <a href="mailto:info@example.com" class="contact-footer"
+            >info@example.com</a
+          >
+          <a href="+48111111111" class="contact-footer"> +48 111 111 111 </a>
+        </address>
+      </section>
     </footer>
   </body>
 </html>

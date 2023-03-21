@@ -11,10 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="container">
+    <header class="container box-header">
       <a href="./index.html" class="logo"
         ><span class="color-logo-blue">Web</span>Studio</a
       >
@@ -40,12 +47,12 @@
         </li>
       </ul>
     </header>
-    <main class="container">
+    <main>
       <section class="index-section section">
         <h1 class="H1-style">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button type="button" class="button-index">Zamów usługę</button>
       </section>
-      <section class="index-section section">
+      <section class="index-section section container">
         <ul class="index-section-two-ul">
           <li>
             <h3 class="H3-style">LOREM IPSUM</h3>
@@ -103,7 +110,7 @@
       </section>
       <section class="index-section section">
         <h2 class="index-section-four-h2">Nasz zespół</h2>
-        <div class="index-img-sectiion-four">
+        <div class="index-img-sectiion-four container">
           <figure class="index-figure">
             <img
               src="./images/img6.jpg"
@@ -155,18 +162,20 @@
         </div>
       </section>
     </main>
-    <footer class="footer-page container">
-      <a href="./index.html" class="logo"
-        ><span class="color-logo-blue">Web</span
-        ><span class="color-logo-white">Studio</span></a
-      >
-      <address class="address">
-        <p class="p-address">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a href="mailto:info@example.com" class="contact-footer"
-          >info@example.com</a
+    <footer class="footer-page">
+      <section class="container">
+        <a href="./index.html" class="logo"
+          ><span class="color-logo-blue">Web</span
+          ><span class="color-logo-white">Studio</span></a
         >
-        <a href="+48111111111" class="contact-footer"> +48 111 111 111 </a>
-      </address>
+        <address class="address">
+          <p class="p-address">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <a href="mailto:info@example.com" class="contact-footer"
+            >info@example.com</a
+          >
+          <a href="+48111111111" class="contact-footer"> +48 111 111 111 </a>
+        </address>
+      </section>
     </footer>
   </body>
 </html>
