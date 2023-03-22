@@ -22,8 +22,13 @@ header {
 
 .container {
   width: 1200px;
-  margin-left: 215px;
-  margin-right: 215px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+* {
+  padding: 0;
+  margin: 0;
 }
 
 .portfolio-button-ul {
@@ -76,8 +81,10 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-  width: 200px;
-  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
 }
 
 .button-index:hover {
@@ -109,6 +116,7 @@ header {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
+  gap: 30px;
 }
 
 .nav-ul-style {
@@ -146,7 +154,6 @@ header {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin-left: 24px;
   margin-top: 4px;
 }
 .heading-portfolio {
@@ -154,16 +161,12 @@ header {
   line-height: 2;
   font-weight: 700;
   letter-spacing: 0.06em;
-  margin-left: 24px;
-  margin-bottom: 0px;
-  margin-top: 20px;
 }
 
 .heading-index {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -190,6 +193,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
+  gap: 30px;
 }
 
 .index-figure {
@@ -211,14 +215,8 @@ header {
 
 .portfolio-figure {
   background-color: #ffffff;
-  border-bottom: 1px solid #eeeeee;
   box-sizing: border-box;
-  flex-direction: column;
-  margin-right: 0px;
-  margin-left: 30px;
   padding-bottom: 20px;
-  margin-top: 0px;
-  margin-bottom: 30px;
 }
 .portfolio-figure:nth-child(3n + 1) {
   margin-left: 0px;
@@ -228,8 +226,8 @@ header {
   color: #757575;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 10px;
 }
 .logo {
   font-family: "Raleway";
@@ -308,10 +306,6 @@ header {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-top: 10px;
-  margin-right: 30px;
-  width: 270px;
-  height: 75px;
 }
 
 .index-section-three-h2 {
@@ -333,7 +327,6 @@ header {
   margin-bottom: 0px;
 }
 .section {
-  display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -342,6 +335,10 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.index-section-one {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .index-section:first-child {
   background: #2f303a;
@@ -361,4 +358,15 @@ header {
 
 .portfolio-section:nth-child(3) {
   display: flex;
+}
+.figcaption-portfolio {
+  border: 1px solid #eeeeee;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.figcaption-index {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
