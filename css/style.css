@@ -44,7 +44,6 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  border-radius: 4px;
   background: #f5f4fa;
   text-align: center;
   justify-content: center;
@@ -174,19 +173,17 @@ header {
   margin-left: 0px;
 }
 
-.img-position:nth-child(n + 2) {
-  margin-left: 30px;
-}
-
 .index-img-section-three {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
+  gap: 30px;
 }
-.index-img-sectiion-four {
+.index-img-section-four {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
+  gap: 30px;
 }
 
 .portfolio-img-div {
@@ -204,7 +201,6 @@ header {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-left: 30px;
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -216,7 +212,6 @@ header {
 .portfolio-figure {
   background-color: #ffffff;
   box-sizing: border-box;
-  padding-bottom: 20px;
 }
 .portfolio-figure:nth-child(3n + 1) {
   margin-left: 0px;
@@ -360,10 +355,10 @@ header {
   display: flex;
 }
 .figcaption-portfolio {
-  border: 1px solid #eeeeee;
-  padding-left: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .figcaption-index {
   text-align: center;
